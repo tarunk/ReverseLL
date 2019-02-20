@@ -11,7 +11,7 @@ LinkedList::LinkedList() {
 
 Node* LinkedList::getNode(int num) {
     //Modify code here
-    Node* temp = nullptr;
+    Node* temp = new Node(num);
     return temp;
 }
 
